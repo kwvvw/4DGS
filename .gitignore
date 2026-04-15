@@ -1,0 +1,28 @@
+# 忽略所有子模块（解决嵌套仓库报错）
+SIBR_viewers/
+submodules/
+SIBR_viewers_windows/
+SIBR_viewers_linux/
+
+# 忽略编译文件
+build/
+dist/
+*.so
+*.dll
+*.dylib
+*.bin
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 输出、数据、大文件
+output/
+data/
+*.pth
+*.pt
+*.ckpt
+
+# 编辑器配置
+.vscode/
+.idea/
